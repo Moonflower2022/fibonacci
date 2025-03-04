@@ -69,9 +69,10 @@ def compare_last_10(number):
 
 
 def get_fib(number):
-    print(get_length(get_length(iterative(number))))
+    print("length of length:", get_length(get_length(matrix(number))))
 
 if __name__ == '__main__':
-    number = 1_000_000
+    number = 2000
 
+    get_fib(number)
     compare_last_10(number)

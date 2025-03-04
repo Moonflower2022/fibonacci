@@ -9,7 +9,7 @@
     (format t "Saved number to ~a~%" filename)))
 
 ;; Calculate Fibonacci and store the result
-(defvar fib-number 1000)
+(defvar fib-number 2000)
 (let ((result (time (fib-func fib-number))))
   ;; Use format correctly to create the filename string
   (save-number-to-file result (format nil "calculations/f(~d).txt" fib-number)) 
